@@ -1,0 +1,21 @@
+{% extends "partials/layout.html" %}
+{% block content %}
+  <div class="container py-4">
+    <h1>Shop Detail</h1>
+    <table class="table">
+      <tbody>
+        <tr>
+          <th>id</th>
+          <td id="shopId"></td>
+        </tr>
+        <tr>
+          <th>name</th>
+          <td id="shopName"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+{% endblock content %}
+{% block scripts %}
+  <script src="/static/js/shop.js"></script>
+{% endblock %}
